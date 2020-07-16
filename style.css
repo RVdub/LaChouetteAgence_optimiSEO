@@ -155,6 +155,10 @@ a:hover {
     color: rgba(255, 255, 255, 1);
 }
 
+.d-bloc a:hover .icon-md {
+    transform: scale(1.3);
+}
+
 .d-bloc .navbar-toggle .icon-bar {
     background: rgba(255, 255, 255, 1);
 }
@@ -197,7 +201,7 @@ a:hover {
 
 .d-bloc .panel,
 .l-bloc {
-    color: rgba(0, 0, 0, .5);
+    color: rgba(0, 0, 0, 1);
 }
 
 .d-bloc .panel button:hover,
@@ -252,6 +256,8 @@ a:hover {
 .l-bloc h6 a:hover,
 .l-bloc p a:hover {
     color: rgba(0, 0, 0, 1);
+    border: 2px solid black;
+    border-radius: 10px;
 }
 
 .l-bloc .navbar-toggle .icon-bar {
@@ -368,7 +374,7 @@ a:hover {
     .site-navigation {
         position: absolute;
         top: 50%;
-        right: 20px;
+        right: 2em;
         transform: translate(0, -50%);
         -webkit-transform: translateY(-50%);
     }
@@ -634,13 +640,14 @@ a[data-lightbox]:hover img {
 }
 
 .snapshot-lb .modal-body {
-    padding-bottom: 45px;
+    padding-bottom: 4.5em;
 }
 
 .snapshot-lb .lightbox-caption {
     padding: 0;
-    color: rgba(0, 0, 0, .5);
+    color: rgba(0, 0, 0, 1);
     background: none;
+    text-align: center;
 }
 
 h1,
@@ -650,12 +657,17 @@ h4,
 h5,
 h6,
 p,
-label,
 .btn{
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #575757;
 }
+
+.btn {
+    color: white;
+}
+
+label 
 
 .container {
     max-width: 1000px;
@@ -787,8 +799,9 @@ h4 {
 }
 
 .btn-atomic-tangerine:hover {
-    background: #F9F9F7!important;
+    background: #D0D0D0!important;
     color: black!important;
+    border: 2px solid black;
 }
 
 .btn-atomic-tanger {
@@ -807,6 +820,8 @@ h4 {
 
 .ltc-white:hover {
     color: #cccccc!important;
+    border: 1px solid white;
+    border-radius: 5px;
 }
 
 .ltc-atomic-tangerine {
@@ -835,13 +850,13 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/webdesign-lyon-presentation.bmp");
+    background-image: url("img/webdesign-lyon-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
     .bloc {
-        padding-left: 20px;
-        padding-right: 20px;
+        padding-left: 2em;
+        padding-right: 2em;
     }
     .bloc.full-width-bloc,
     .bloc-tile-2.full-width-bloc .container,
@@ -892,7 +907,7 @@ h4 {
     }
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
-        padding: 0 20px;
+        padding: 0 2em;
     }
 }
 
@@ -909,8 +924,8 @@ h4 {
     h6,
     p,
     #disqus_thread {
-        padding-left: 10px!important;
-        padding-right: 10px!important;
+        padding-left: 1em!important;
+        padding-right: 1em!important;
     }
     .b-parallax {
         background-attachment: scroll;
@@ -935,7 +950,7 @@ h4 {
         border-bottom: 1px solid rgba(0, 0, 0, .1);
         background: rgba(0, 0, 0, .05);
         text-align: left;
-        padding-left: 15px;
+        padding-left: 1.5em;
         width: 100%;
     }
     .nav > li:hover {
@@ -943,7 +958,7 @@ h4 {
     }
     .dropdown .dropdown a .caret {
         float: none;
-        margin: 5px 0 0 10px!important;
+        margin: 0.5em 0 0 1em!important;
         border: 4px solid black;
         border-bottom-color: transparent;
         border-right-color: transparent;
@@ -956,7 +971,7 @@ h4 {
         color: rgba(255, 255, 255, .6);
     }
     .hero {
-        padding: 50px 0;
+        padding: 5em 0;
     }
     .hero-nav {
         left: -1px;
@@ -978,7 +993,7 @@ h4 {
     }
     .nav-invert .navbar-toggle {
         float: left;
-        margin-left: 10px;
+        margin-left: 1em;
     }
     .bloc {
         padding-left: 0;
@@ -987,7 +1002,7 @@ h4 {
     .bloc-xxl,
     .bloc-xl,
     .bloc-lg {
-        padding: 40px 0;
+        padding: 4em 0;
     }
     .bloc-sm,
     .bloc-md {
@@ -1003,22 +1018,22 @@ h4 {
         padding-right: 0;
     }
     .a-block {
-        padding: 0 10px;
+        padding: 0 1em;
     }
     .btn-dwn {
         display: none;
     }
     .voffset {
-        margin-top: 5px;
+        margin-top: 0.5em;
     }
     .voffset-md {
-        margin-top: 20px;
+        margin-top: 2em;
     }
     .voffset-lg {
-        margin-top: 30px;
+        margin-top: 3em;
     }
     form {
-        padding: 5px;
+        padding: 0.5em;
     }
     .close-lightbox {
         display: inline-block;
@@ -1055,6 +1070,8 @@ h4 {
 
 .underline {
     text-decoration: underline;
-    color: blue;
+    color: #FFFF82;
 }
+
+
 
