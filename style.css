@@ -18,10 +18,6 @@ a:hover {
     cursor: pointer;
 }
 
-a:visited {
-    color: white;
-}
-
 #page-loading-blocs-notifaction {
     position: fixed;
     top: 0;
