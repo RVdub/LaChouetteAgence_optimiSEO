@@ -1086,8 +1086,11 @@ h4 {
     font-size: 1.2em;
 }
 
-.horaires {
-    font-size: 1.4em;
+address {
+    font-size: 1.3em;
     color: white;
 }
 
+address a:hover {
+    color: white;
+}
